@@ -1,0 +1,100 @@
+
+/* elements global styling */
+
+body{
+    /* background-color:hsl(225, 100%, 94%); */
+    background: url("images/pattern-background-mobile.svg");
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    font-size:16px;
+    color:gray;
+}
+
+
+/* card's general styling */
+
+.card{
+    margin:25px auto 5px;
+    border-radius: 20px;
+    width:20rem;
+}
+
+.card-img-top{
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body{
+    /* text-align: center; */
+    padding:20px 25px;
+}
+
+.big-title{
+    margin:10px auto 20px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+.summary-item-container{
+    background-color:hsl(225, 100%, 98%);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10px 0 5px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+
+.music-icon{
+    margin-left:5px;
+}
+
+.plan{
+    margin-top:20px;
+    padding:0 20px 0 2px;
+}
+.plan-type{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.change{
+    color:hsl(245, 75%, 52%);
+}
+
+.buttons{
+    margin:20px auto 5px;
+}
+
+.btn{
+    border-radius: 12px;
+    padding:10px;
+}
+
+.payment-button{
+    color:white;
+    background-color:hsl(245, 75%, 52%);
+    box-shadow: 0px 8px 15px   hsl(224, 23%, 55%);
+}
+
+
+.cancel-button{
+    margin-top: 15px;
+    font-weight:normal;
+    color:gray;
+}
+
+@media only screen and (min-width: 960px) {
+    body{
+        background: url("images/pattern-background-desktop.svg");
+    }
+    .card{
+        width:25rem;
+    }
+}
+
+
